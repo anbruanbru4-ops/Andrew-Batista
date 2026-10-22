@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Veliux Symbols';
+  src: url('/fonts/symbols.woff') format('woff');
+  font-weight: 100 900;
+  font-display: swap;
+  unicode-range: U+2190-21FF, U+2300-23FF, U+25A0-27BF;
+}
+body { font-family: 'DM Sans Variable', 'Veliux Symbols', sans-serif; }
+.nav-cta span, .button span, .small-orbit, .mini-node, .capabilities i,
+.ai-spark, .diagram-node>span, .arrow-circle, .service-link>span,
+.automation-visual>span, .automation-visual>strong, .dialog-art>span,
+.diagram-tag, .card-icon, .flow-heading>span:last-child, .chat-bubble>span {
+  font-family: 'Veliux Symbols', 'DM Sans Variable', sans-serif;
+}
+.glass-card { background-color: rgba(10, 17, 36, .67); }
+.signal-card .micro-label, .flow-card .micro-label { color: #bcc7e8; }
+.flow-labels { color: #b2bfdd; }
+.signal-card strong { color: #f0f4ff; }
+.brand-dot { display: none; }
+main { overflow: clip; }
